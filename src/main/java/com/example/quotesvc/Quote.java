@@ -1,19 +1,15 @@
-package com.example;
+package com.example.quotesvc;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-/**
- * Created by markheckler on 12/17/16.
- */
 @Entity
-public class Quote {
+class Quote {
     @Id
     @GeneratedValue
     private Long id;
-    private String text;
-    private String source;
+    private String text, source;
 
     public Quote() {
     }

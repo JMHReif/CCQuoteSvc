@@ -1,11 +1,8 @@
-package com.example;
+package com.example.quotesvc;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * Created by markheckler on 12/17/16.
- */
 @RestController
 public class QuoteController {
     private QuoteRepository quoteRepository;
